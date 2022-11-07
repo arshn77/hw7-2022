@@ -67,11 +67,11 @@ window.onload = function(){
 	document.querySelector("#mute").addEventListener("click", function() {
 		if(video.muted){
 			video.muted = false;
-			this.innerHTML = "mute";
+			this.innerHTML = "Mute";
 		}
 		else{
 			video.muted = true;
-			this.innerHTML = "unmute";
+			this.innerHTML = "Unmute";
 		}
 	});
 
