@@ -67,9 +67,11 @@ window.onload = function(){
 	document.querySelector("#mute").addEventListener("click", function() {
 		if(video.muted){
 			video.muted = false;
+			this.innerHTML = "mute";
 		}
 		else{
 			video.muted = true;
+			this.innerHTML = "unmute";
 		}
 	});
 
@@ -90,7 +92,7 @@ window.onload = function(){
 		//console.log(this.value + "%");
 	});
 
-	
+
 
 }
 
